@@ -1,0 +1,21 @@
+
+:root{
+
+}
+.WebContainer{
+    width:auto;
+    height:auto;
+}
+        .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 13%;
+  background-color:#172337;
+  }
+  .p{
+    align-items: center;
+    font-family: Lobster;
+    fontcolor: #0000;
+  }
