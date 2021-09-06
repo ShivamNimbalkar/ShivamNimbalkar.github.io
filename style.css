@@ -33,7 +33,7 @@ body{
     border-top-left-radius:5px;
     border-top-right-radius:5px;
     width: fit-content;
-    t
+    
 }
 .selector-menu ul li a {
     text-decoration: none;
@@ -84,6 +84,19 @@ display: inline;
     color:#000;
 
 }
+
+#mod{
+    margin-top: 10px;
+    text-align:right;
+    margin-left: 830px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1; 
+
+}
+#mod{
+    text-decoration: none;
+}
+
 /* div B*/
 table{
     table-layout: fixed;
@@ -126,13 +139,4 @@ width :none;
     font-family: Arial, Helvetica, sans-serif;
     font: bold;
     text-shadow: 1px 1px 1px;
-}
-#mod{
-    text-align:left;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 1; 
-
-}
-#mod{
-    text-decoration: none;
 }
