@@ -134,7 +134,7 @@ width :none;
 
 }
 /* div A*/
-#note{
+#note,#one{
     text-align:center; 
     font-family: Arial, Helvetica, sans-serif;
     font: bold;
