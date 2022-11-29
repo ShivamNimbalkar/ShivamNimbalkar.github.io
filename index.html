@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>areaCalculus</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    
+    <script>
+        function calculate()
+            { 
+        var x,y,z,c,cost,n;
+        x=Number (document.getElementById("length").value);
+        y=Number (document.getElementById("breadth").value);
+        z=Number (document.getElementById("rate").value);
+        c=x*y;
+        cost=z/(2722);
+        n=cost*c;
+        document.getElementById("answer").value=n;
+
+            }
+    </script>
+</head>
+<body>
+<div class="main">
+<ul>
+    <li><input class="text" type="Text" Value="लांबी प्रविष्ट करा(फूट)"readonly </li>
+    <li><input type="number" min="0" id="length"></li>
+    <li><input class="text" type="Text" Value="रुंदी प्रविष्ट करा(फूट)"readonly </li>
+    <li><input type="number" min="0" id="breadth"></li>
+    <li><input class="text" type="Text" Value="एक पांडाचा दर प्रविष्ट करा(₹)"readonly </li>
+    <li><input type="number" min="0" id="rate"></li>
+    <li><input type="button" value="हिशेब कारा" onclick="calculate()"</li>
+    <li><input id="answer"/></li>
+</ul>
+</div>
+    
+</body>
+</html>
